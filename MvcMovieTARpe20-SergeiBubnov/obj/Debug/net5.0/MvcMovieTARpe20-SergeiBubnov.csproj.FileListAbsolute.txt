@@ -151,3 +151,8 @@ C:\Users\serge\source\repos\MvcMovieTARpe20-SergeiBubnov\MvcMovieTARpe20-SergeiB
 C:\Users\serge\source\repos\MvcMovieTARpe20-SergeiBubnov\MvcMovieTARpe20-SergeiBubnov\obj\Debug\net5.0\Razor\Views\Movies\Details.cshtml.g.cs
 C:\Users\serge\source\repos\MvcMovieTARpe20-SergeiBubnov\MvcMovieTARpe20-SergeiBubnov\obj\Debug\net5.0\Razor\Views\Movies\Edit.cshtml.g.cs
 C:\Users\serge\source\repos\MvcMovieTARpe20-SergeiBubnov\MvcMovieTARpe20-SergeiBubnov\obj\Debug\net5.0\Razor\Views\Movies\Index.cshtml.g.cs
+C:\Users\serge\source\repos\MvcMovieTARpe20-SergeiBubnov\MvcMovieTARpe20-SergeiBubnov\obj\Debug\net5.0\Razor\Views\Actors\Create.cshtml.g.cs
+C:\Users\serge\source\repos\MvcMovieTARpe20-SergeiBubnov\MvcMovieTARpe20-SergeiBubnov\obj\Debug\net5.0\Razor\Views\Actors\Delete.cshtml.g.cs
+C:\Users\serge\source\repos\MvcMovieTARpe20-SergeiBubnov\MvcMovieTARpe20-SergeiBubnov\obj\Debug\net5.0\Razor\Views\Actors\Details.cshtml.g.cs
+C:\Users\serge\source\repos\MvcMovieTARpe20-SergeiBubnov\MvcMovieTARpe20-SergeiBubnov\obj\Debug\net5.0\Razor\Views\Actors\Edit.cshtml.g.cs
+C:\Users\serge\source\repos\MvcMovieTARpe20-SergeiBubnov\MvcMovieTARpe20-SergeiBubnov\obj\Debug\net5.0\Razor\Views\Actors\Index.cshtml.g.cs

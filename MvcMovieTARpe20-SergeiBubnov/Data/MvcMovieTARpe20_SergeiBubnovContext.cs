@@ -15,5 +15,7 @@ namespace MvcMovieTARpe20_SergeiBubnov.Data
         }
 
         public DbSet<MvcMovieTARpe20_SergeiBubnov.Models.Movie> Movie { get; set; }
+
+        public DbSet<MvcMovieTARpe20_SergeiBubnov.Models.Actor> Actor { get; set; }
     }
 }
