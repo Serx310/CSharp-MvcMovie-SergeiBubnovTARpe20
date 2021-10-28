@@ -33,6 +33,9 @@ namespace MvcMovieTARpe20_SergeiBubnov.Models
         [DisplayFormat(DataFormatString = "{0:yyyy-MM-dd}", ApplyFormatInEditMode = true)]
         public DateTime BeginningOfCarrier { get; set; }
 
+        [Display(Name = "Number of Oscar")]
+        public int NumberOfOscars { get; set; }
+
 
     }
 }

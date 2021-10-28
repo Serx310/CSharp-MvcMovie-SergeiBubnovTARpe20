@@ -77,7 +77,7 @@ namespace MvcMovieTARpe20_SergeiBubnov.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,FirstName,LastName,PlaceOfBirth,Born,BeginningOfCarrier")] Actor actor)
+        public async Task<IActionResult> Create([Bind("Id,FirstName,LastName,PlaceOfBirth,Born,BeginningOfCarrier, NumberOfOscars")] Actor actor)
         {
             if (ModelState.IsValid)
             {
@@ -109,7 +109,7 @@ namespace MvcMovieTARpe20_SergeiBubnov.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,FirstName,LastName,PlaceOfBirth,Born,BeginningOfCarrier")] Actor actor)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,FirstName,LastName,PlaceOfBirth,Born,BeginningOfCarrier, NumberOfOscars")] Actor actor)
         {
             if (id != actor.Id)
             {

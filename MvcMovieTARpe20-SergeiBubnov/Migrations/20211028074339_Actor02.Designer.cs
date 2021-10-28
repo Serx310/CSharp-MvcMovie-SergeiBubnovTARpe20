@@ -3,15 +3,17 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using MvcMovieTARpe20_SergeiBubnov.Data;
 
 namespace MvcMovieTARpe20_SergeiBubnov.Migrations
 {
     [DbContext(typeof(MvcMovieTARpe20_SergeiBubnovContext))]
-    partial class MvcMovieTARpe20_SergeiBubnovContextModelSnapshot : ModelSnapshot
+    [Migration("20211028074339_Actor02")]
+    partial class Actor02
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

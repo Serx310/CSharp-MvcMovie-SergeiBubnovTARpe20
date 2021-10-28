@@ -41,7 +41,8 @@ namespace MvcMovieTARpe20_SergeiBubnov.Models
                     LastName = "Berry",
                     PlaceOfBirth = "UK",
                     Born = DateTime.Parse("1974-05-02"),
-                    BeginningOfCarrier = DateTime.Parse("2004-01-29")
+                    BeginningOfCarrier = DateTime.Parse("2004-01-29"),
+                    NumberOfOscars = 0
                 },
 
                 new Actor
@@ -50,7 +51,8 @@ namespace MvcMovieTARpe20_SergeiBubnov.Models
                     LastName = "Demetriou",
                     PlaceOfBirth = "UK",
                     Born = DateTime.Parse("1984-01-15"),
-                    BeginningOfCarrier = DateTime.Parse("2012-01-01")
+                    BeginningOfCarrier = DateTime.Parse("2012-01-01"),
+                    NumberOfOscars = 0
                 }
 
             );
