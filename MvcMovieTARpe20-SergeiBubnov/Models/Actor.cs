@@ -18,6 +18,10 @@ namespace MvcMovieTARpe20_SergeiBubnov.Models
         [Required]
         [Display(Name = "Last Name")]
         public string LastName { get; set; }
+
+        [StringLength(60, MinimumLength = 2)]
+        [Required]
+        [Display(Name = "Place of birth")]
         public string PlaceOfBirth { get; set; }
         [Display(Name = "Born")]
         [DataType(DataType.Date)]

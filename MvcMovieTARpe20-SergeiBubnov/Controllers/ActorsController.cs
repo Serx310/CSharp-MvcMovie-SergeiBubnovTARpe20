@@ -20,9 +20,32 @@ namespace MvcMovieTARpe20_SergeiBubnov.Controllers
         }
 
         // GET: Actors
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(int? birthYear, string searchString)
         {
-            return View(await _context.Actor.ToListAsync());
+            var birthYearQuery = from a in _context.Actor
+                         orderby a.Born.Year
+                         select a.Born.Year;
+            var actors = from a in _context.Actor
+                         select a;
+
+            if (!String.IsNullOrEmpty(searchString))
+            {
+                actors = actors.Where(s => s.FirstName.Contains(searchString) || s.LastName.Contains(searchString));
+            }
+
+            if(birthYear != null)
+            {
+                actors = actors.Where(s => s.Born.Year == birthYear);
+            }
+
+            var actorVM = new ActorsViewModel
+            {
+                Actors = await actors.ToListAsync(),
+                BirthYears = new SelectList(await birthYearQuery.Distinct().ToListAsync())
+            };
+
+            return View(actorVM);
+
         }
 
         // GET: Actors/Details/5
